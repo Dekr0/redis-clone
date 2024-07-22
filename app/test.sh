@@ -1,0 +1,11 @@
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &
+(sleep 3 && printf "ECHO") | ncat localhost 6379 &

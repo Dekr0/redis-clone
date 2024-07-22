@@ -8,14 +8,14 @@
 #include "config.h"
 
 
-int setup() {
+int32_t setup() {
     /** Server Configuration */
-    int server_fd = -1;
-    int rcode = -1;
-    int reuse_port = 1;
-    struct addrinfo hints = { 0 };
-    struct addrinfo *server_opts = NULL;
-    struct addrinfo *server_info = NULL;
+    int32_t server_fd = -1;
+    int32_t rcode = -1;
+    int32_t reuse_port = 1;
+    struct addrinfo  hints = { 0 };
+    struct addrinfo* server_opts = NULL;
+    struct addrinfo* server_info = NULL;
 
     /** Server Setup */
     memset(&hints, 0, sizeof hints);
